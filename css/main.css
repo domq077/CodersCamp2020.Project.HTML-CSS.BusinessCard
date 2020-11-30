@@ -1,6 +1,6 @@
-@import '../css/basics/reset.css';
-@import '../css/section/nav.css';
-@import '../css/section/header.css';
+@import '/css/basics/reset.css';
+@import '/css/section/nav.css';
+@import '/css/section/header.css';
 
 body {
     background-color: #fff;
