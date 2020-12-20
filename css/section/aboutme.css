@@ -1,0 +1,83 @@
+.aboutme {
+    position: absolute;
+    width: 100%;
+}
+
+.about {
+    position: absolute;
+    background-color: #FAFAFF;
+    min-height: 430px;
+    width: 65%;
+    z-index: -2;
+}
+
+.about__title {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #222;
+    line-height: 3rem;
+    letter-spacing: 2%;
+    padding: 10px 0 0 25px;
+}
+
+.card {
+    position: relative;
+    background-color: #fff;
+    width: 85%;
+    min-height: 280px;
+    z-index: 1;
+    margin: 76px 0;
+    left: 10%;
+    box-shadow: 7px 9px 12px 0px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.aboutme .card:nth-child(2) {
+    flex: 1;
+}
+
+.card div:nth-child(1) {
+    border-right: 2px dashed #ffc53d;
+}
+
+.card__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 2rem;
+    padding: 2rem;
+}
+
+.card__image {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    letter-spacing: 2%;
+}
+
+.card__personal__item {
+    color: #222;
+    font-weight: 700;
+}
+
+.card__personal__item strong{
+    font-family: Ubuntu, sans-serif;
+    color: #ffc53d;
+}
+
+@media (max-width: 320px) {
+
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+
+}
+
+@media (min-width: 376px) and (max-width: 700px) {
+
+}
