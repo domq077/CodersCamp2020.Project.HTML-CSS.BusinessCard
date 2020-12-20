@@ -8,7 +8,6 @@
     background-color: #FAFAFF;
     min-height: 430px;
     width: 65%;
-    z-index: -2;
 }
 
 .about__title {
@@ -70,14 +69,28 @@
     color: #ffc53d;
 }
 
-@media (max-width: 320px) {
-
+@media (max-width: 700px) {
+    .card__item {
+        flex-direction: column;   
+    }
 }
 
-@media (min-width: 321px) and (max-width: 375px) {
+@media (max-width: 1151px) {
+    .about {
+        background-color: transparent;
+    }
 
+    .about__title {
+        color: #ffc53d;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .card div:nth-child(1) {
+        border-right: none;
+    }
 }
 
-@media (min-width: 376px) and (max-width: 700px) {
 
-}
