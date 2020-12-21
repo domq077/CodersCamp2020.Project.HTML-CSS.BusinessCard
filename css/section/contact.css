@@ -1,0 +1,35 @@
+.contact {
+    min-height: 785px;
+    width: 100%;
+    background-color: #FAFAFF;
+}
+
+.contact__title {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #222;
+    line-height: 3rem;
+    letter-spacing: 2%;
+    padding: 10px 0 0 25px;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 100%;
+    justify-items: stretch;
+    align-items: stretch;
+    min-height: 620px;
+    margin: 27px 100px;
+}
+
+.contact-container__item {
+    background-color: #FFF;
+    padding: 0 0 35px 52px;
+    box-shadow: 7px 9px 12px 0px rgba(0,0,0,0.2);
+} 
+
+.contact-container__item--orange {
+    background-color: #FF9A3D;
+}
