@@ -22,6 +22,8 @@
     align-items: stretch;
     min-height: 620px;
     margin: 27px 100px;
+    font-size: 1.5rem;
+    color: #fff;
 }
 
 .contact-container__item {
@@ -32,4 +34,33 @@
 
 .contact-container__item--orange {
     background-color: #FF9A3D;
+}
+
+.fa-paper-plane  {
+    margin: 46px 0;
+}
+
+.contact__info {
+    font-weight: 400;
+    letter-spacing: 0.15rem;
+    line-height: 2.5rem;
+    margin-bottom: 200px;
+}
+
+.contact__social__item {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: #fff;
+    margin-right: 12.5px;
+    color: #ffc53d;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12.5px;
+}
+
+.contact__social__item:nth-child(3) {
+    background-color: white;
 }
