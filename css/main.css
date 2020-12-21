@@ -2,6 +2,7 @@
 @import '/css/section/nav.css';
 @import '/css/section/header.css';
 @import '/css/section/aboutme.css';
+@import '/css/section/skills.css';
 
 html, body {
     background: url(/images/3682580.jpg) no-repeat center center fixed; 

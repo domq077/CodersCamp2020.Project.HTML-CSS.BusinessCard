@@ -1,13 +1,14 @@
 .aboutme {
-    position: absolute;
     width: 100%;
 }
 
 .about {
-    position: absolute;
     background-color: #FAFAFF;
     min-height: 430px;
     width: 65%;
+    z-index: -1;
+    position: absolute;
+    
 }
 
 .about__title {
@@ -26,7 +27,7 @@
     width: 85%;
     min-height: 280px;
     z-index: 1;
-    margin: 76px 0;
+    top: 76px;
     left: 10%;
     box-shadow: 7px 9px 12px 0px rgba(0,0,0,0.2);
     display: flex;
@@ -34,9 +35,10 @@
     justify-content: flex-start;
     align-items: center;
     font-size: 1.5rem;
+    margin-bottom: 200px;
 }
 
-.aboutme .card:nth-child(2) {
+.aboutme .card .card__item:nth-child(2){
     flex: 1;
 }
 
