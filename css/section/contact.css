@@ -28,7 +28,7 @@
 
 .contact-container__item {
     background-color: #FFF;
-    padding: 0 0 35px 52px;
+    padding: 46px 46px 35px 52px;
     box-shadow: 7px 9px 12px 0px rgba(0,0,0,0.2);
 } 
 
@@ -37,7 +37,7 @@
 }
 
 .fa-paper-plane  {
-    margin: 46px 0;
+    margin-bottom: 46px;
 }
 
 .contact__info {
@@ -47,6 +47,11 @@
     margin-bottom: 200px;
 }
 
+.contact__social {
+    display: flex;
+    margin-bottom: 10px;
+}
+
 .contact__social__item {
     display: inline-block;
     width: 25px;
@@ -54,7 +59,7 @@
     border: none;
     border-radius: 25px;
     background-color: #fff;
-    margin-right: 12.5px;
+    margin-right: 25px;
     color: #ffc53d;
     text-align: center;
     line-height: 25px;
@@ -62,5 +67,81 @@
 }
 
 .contact__social__item:nth-child(3) {
-    background-color: white;
+    background: #ffc53d;
+    color: white;
+}
+
+.contact__data__item {
+    letter-spacing: 2%;
+}
+
+.contact__data__item--bold {
+    font-family: Ubuntu, sans-serif;
+}
+
+.contact__data__item:last-child {
+    text-decoration: underline;
+}
+
+
+.form__title {
+    color: #222;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 5rem;
+    letter-spacing: 4%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+}
+
+.form__item {
+    height: 36px;
+    background: #FAFAFF;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 24px;
+    color: #A0A0A0;
+    font-family: Raleway;
+    font-size: 1.5rem;
+    line-height: 24px;
+    font-weight: 400;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.form__item::placeholder {
+    color: #A0A0A0;
+}
+
+.form__item:focus {
+    outline: none;
+}
+
+textarea {
+    font-family: Raleway;
+    min-height: 180px;
+    resize: none;
+    
+}
+
+.form__button {
+    align-self: flex-end;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.17rem;
+    background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
+    transition: color 500ms ease;
+}
+
+.form__button:hover {
+    background: white;
+    color: #ffc53d;
+    border: 2px solid #ffc53d;
 }
