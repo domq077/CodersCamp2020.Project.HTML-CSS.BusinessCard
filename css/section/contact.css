@@ -145,3 +145,12 @@ textarea {
     color: #ffc53d;
     border: 2px solid #ffc53d;
 }
+
+
+@media (max-width: 1001px) {
+    .contact-container {
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 100%;
+        margin: 30px;
+    }
+}
