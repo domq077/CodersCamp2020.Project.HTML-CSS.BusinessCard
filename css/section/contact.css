@@ -81,6 +81,7 @@
 
 .contact__data__item:last-child {
     text-decoration: underline;
+    margin-bottom: 10px;
 }
 
 
