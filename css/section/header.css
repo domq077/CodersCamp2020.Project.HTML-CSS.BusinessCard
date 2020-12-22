@@ -92,6 +92,20 @@
     background: white;
     color: #ffc53d;
     border: 2px solid #ffc53d;
+    outline: none;
+}
+
+.button__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.17rem;
+    outline: none;
+}
+
+.button__link:hover {
+    outline: none;
+    color: #ffc53d;
 }
 
 @media (max-width: 320px) {

@@ -4,6 +4,7 @@
 @import '/css/section/aboutme.css';
 @import '/css/section/skills.css';
 @import '/css/section/contact.css';
+@import '/css/section/footer.css';
 
 html, body {
     background: url(/images/3682580.jpg) no-repeat center center fixed; 
